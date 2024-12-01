@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "PathifyAPI"
+version = "0.0.1b"
+description = "FastAPI based library for create API."
+authors = ["Ivan Kriventsev <dirtyhornet277@gmail.com>"]
+license = "GNU"
+readme = "README.md"
+packages = [{ include = "pathify", from = "." }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
