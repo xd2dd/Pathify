@@ -55,7 +55,7 @@ project/
     ├── hello/
     │   ├── {name}.py
     └── users/
-        ├── {id}.py
+        ├── get.py
         └── {id}/
             └── post.py
 ```
