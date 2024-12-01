@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "PathifyAPI"
-version = "0.0.1b"
+version = "0.0.2b"
 description = "FastAPI based library for create API."
 authors = ["Ivan Kriventsev <dirtyhornet277@gmail.com>"]
 license = "GNU"
